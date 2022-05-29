@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-</head>
+  </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-success bg-success">
+    <nav class="navbar navbar-expand-lg navbar-success  bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Inicio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,75 +20,70 @@
               <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="noticias.html">Noticias</a>
+              <a class="nav-link" href="noticias.html">noticias</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Menu
-              </a>
+           
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-                <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
+                <li><a class="dropdown-item" href="noticias.html">noticias</a></li>
                 <li><hr class="dropdown-divider"></li>
               </ul>
-            </li>
-          
+            </li>      
           </ul>
-          <form class="d-flex">
-                <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                 Ingresar
-              </button>
   
-          </form>
         </div>
       </div>
     </nav>
-
+      <br>
+     <H1>Contacto</H1>
+     <br>
     <div class="container">
        <div class="row">
-           <div class="col-lg-4">
+        <div class="col-lg-6 col-md-4 col-12">
+          <h2>Ubicación / Cómo llegar</h2>
+          <br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12813.592285743685!2d-72.98246146467572!3d-36.59272065158011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96684f409a23b3cd%3A0xb4b2cf088f7c5f8a!2sCaleta%20Cocholg%C3%BCe!5e0!3m2!1ses-419!2scl!4v1653670743603!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+          <div class="col-lg-6 col-md-4 col-12">
             <form>
+              <div class="mb-3">
+                <label for="exampleInputname" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="name">
+               </div>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico </label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más. .</div>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 15rem"></textarea>
+                  <label for="floatingTextarea2">Mensaje</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 50px"></textarea>
-                    <label for="floatingTextarea2">Comentarios</label>
-                  </div>
-              </form>
-              <div class="col-lg-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12813.592285743685!2d-72.98246146467572!3d-36.59272065158011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96684f409a23b3cd%3A0xb4b2cf088f7c5f8a!2sCaleta%20Cocholg%C3%BCe!5e0!3m2!1ses-419!2scl!4v1653670743603!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-              <div class="col-lg-4 d-lg-block d-md-none">
-                <p>contactanos</p>
-              </div>
+                <br>
+                <br>
+                <div class="col-lg-6"></div>
+                <div class="card bg-primary text-primary ">
+                  <img src="https://assets.diarioconcepcion.cl/2020/01/El-Arco-Elefante-la-desconocida-postal-tur%C3%ADstica-de-Tom%C3%A9-e1578529660881-850x400.jpg" class="card-img" alt="cochol2">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Caleta Cocholgue</h5>
+                      Caleta Cocholgüe
+                      Fono: +569 7777 7777
+                      viva@cocholgue.cl        
+                </div>
+                </div>
+                <br>
+            </div>
+          </form>             
         </div>
-      </div>
     </div>
-
-    
-
     <footer class="bg-light text-center text-lg-start">
-        <!-- Copyright -->
-        <div class="text-center p-3 bg-success">
-          © 2022 Copyright:
-          <a class="text-dark" href="#">Gregory Cortez</a>
-        </div>
-        <!-- Copyright -->
-      </footer> 
-
-           
-</body>
+      <!-- Copyright -->
+      <div class="text-center p-3 bg-primary">
+        © 2022 Copyright:
+        <a class="text-dark" href="#">Gregory Cortez</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
 </html

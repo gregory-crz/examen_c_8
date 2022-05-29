@@ -2,13 +2,24 @@ body{
     background-image: url(https://img.freepik.com/foto-gratis/resumen-superficie-agua-piscina-fondo-reflejo-luz-sol_74190-8510.jpg?w=2000);
     font-style: italic;
     font-weight: bolder;
+    margin: auto;
 }
 h1{
     text-align: center;
 }
-form{;
-    padding: 20px;
-}
+
 p{
     padding: 5rem;
+    text-align: center;
+}
+.pincha{
+    text-align: center;
+}
+
+
+.carousel{
+    border: 5p solid darkblue;
+}
+h2{
+    text-align: center;
 }
